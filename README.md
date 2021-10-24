@@ -27,7 +27,7 @@ Security    | OTP/AES/SHA/RSA/RNG/HMAC |
 
 ## Pin Assignements
 All available GPIO pins (except for the SPI bus for flash) are broken out to the pin headers on the board.
-[![E-Tinkers ESP32-C3 Board pinout](https://github.com/e-tinkers/e-tinkers-esp32-c3-board/blob/master/e-tinkers_esp32_c3_pinout.png)]
+[![E-Tinkers ESP32-C3 Board pinout]](https://github.com/e-tinkers/e-tinkers-esp32-c3-board/blob/master/e-tinkers_esp32_c3_pinout.png)(https://github.com/e-tinkers/e-tinkers-esp32-c3-board/blob/master/e-tinkers_esp32_c3_pinout.png)
 
 ## Firmware
 Programming can be done using a USB-TTL Adaptor. The *Firmware* folder contains the source code, bootloader, partition table and a firmware binary based on the source code for testing and demo purpose. Use [esptool](https://github.com/espressif/esptool) to upload the code to the board.
