@@ -1,6 +1,6 @@
 # E-Tinkers ESP32-C3 Board
 
-E-Tinkers ESP32-C3 Board is a ESP32-C3 dev board base on ESP32-C3-WROOM-02 module from  Expressif, unlike the official ESP-C3-DevKitM-1 or ESP32-C3-DevKitC-02, E-Tinkers ESP32-C3 Board does not has the USB Type-C port and the ESPLink on-board programmer, but it does include an on-board 600mA LDO and break out all the GPIO pins. It is designed for using as a WiFi/BLE shield or to integrated with another MCU and/or sensors, but need an ESP32-C3 evaluation board for rapid prototype, in both cases USB port is probably not needed in the end product.
+E-Tinkers ESP32-C3 Board is a ESP32-C3 dev board base on ESP32-C3-WROOM-02 module from  Expressif, unlike the official ESP-C3-DevKitM-1 or ESP32-C3-DevKitC-02, E-Tinkers ESP32-C3 Board does not has the USB Type-C port and the ESPLink on-board programmer, but it does include an on-board 600mA LDO and break out all the GPIO pins. It is designed for using as a WiFi/BLE shield or to integrated with another MCU and/or sensors, and before creating your own customizing design, you need an ESP32-C3 evaluation board for rapid prototype, in both cases USB port is probably not needed in the end product.
 
 ## Specification and Key features
 
@@ -30,7 +30,7 @@ All available GPIO pins of the ESP32-C3-WROOM-02 are broken out to the pin heade
 ![E-Tinkers ESP32-C3 Board pinout](https://github.com/e-tinkers/e-tinkers-esp32-c3-board/blob/master/e-tinkers_esp32_c3_pinout.png)
 
 ## Firmware
-Programming can be done using a USB-TTL Adaptor. The *Firmware* folder contains the source code, bootloader, partition table and a firmware binary files based on the source code for testing and demo purpose. Use [esptool](https://github.com/espressif/esptool) to upload the code to the board.
+Programming can be done using a USB-TTL Adaptor. The *Firmware* folder contains the firmware binary code , bootloader, and partition table for testing and demo purpose. Use [esptool](https://github.com/espressif/esptool) to upload the code to the board.
 
 ```
 esptool.py --chip esp32c3 \
