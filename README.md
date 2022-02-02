@@ -44,6 +44,9 @@ esptool.py --chip esp32c3 \
 	0x10000 firmware.bin
 ```
 
+## Source Code
+The source code for the firmware used can be found at this [repository](https://github.com/e-tinkers/esp32-c3-blinking).
+
 ## Reference
 ### esp-idf
 https://github.com/espressif/esp-idf
